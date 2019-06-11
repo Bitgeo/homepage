@@ -1,28 +1,28 @@
 body {
-  background: salmon;
+  background: #fefefe;
+  color: #333;
+}
+
+.link {
+  color: #1a936f;
 }
 
 .mainHeader {
   color: tomato;
 }
 
-.sectionHeader {
-  color: #1460AA;
-}
+.sectionHeader,
 .diaryHeader {
-  color: #6c1285;
+  color: #1460AA;
 }
 
 .paragraph {
   color: darkblue;
 }
 
-.pamietniczek {
-  background: pink;
-}
 
 .heading {
-  color: blue;
+  color: #00487C;
 }
 
 .nav {
@@ -54,4 +54,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+.thirdHeader {
+  color: #0496ff;
 }
